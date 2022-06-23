@@ -5,7 +5,7 @@
   .body{
    background: url("../image/11.jpg") no-repeat ;
    background-size: 100% 100%;
-   background-color: ;
+   background-color:lightblue ;
   
   }
   .family{
@@ -15,12 +15,12 @@
     width: 100%;
   }
   .black{
-    color: #222;
+    color: rgb(245, 110, 20);
   }
   .nav{
     height: 60px;
     /*background-color: rgba(0, 0, 0, 0.1);*/
-    background-color: #222;
+    background-color: rgb(245, 110, 20);
     box-sizing: border-box;
     overflow: hidden;
   }
@@ -50,27 +50,28 @@
   .ul li{
     display: inline-block;
     list-style-type: none;
-    padding: 10px 10px;
     text-align:center;
+    line-height: 60px;
+    margin-top: -10px;
+    padding: 0 10px;
   
   }
   .link{
     text-decoration: none;
   }
   .unav li:hover{
-    background-color: #ccc;
+    background-color: navy;
       color: #555;
   }
-  .unav li,a:hover{
-    color: #555;
-  }
+ 
   .div{
     width: 60%;
     margin: 30px auto 30px;
-    background-color: rgba(0, 0, 0, 0.39);
+   background-color: navy;
     border-radius: 15px ;
     box-shadow: 2px 2px 3px #aaa,1px 1px 2px #aaa;
     padding: 20px;
+    /* opacity: 0.9; */
   }
   .gray{
     color: #eff;
@@ -91,19 +92,25 @@
     margin: auto;
     width: 30%;
     text-shadow: 3px 3px 4px #ccc,-3px -3px 4px #ccc;
+    background-color: #fff;
   }
   input, textarea{
     border: 1px solid #444;
-   color: #fff;
     width: 100%;
     height: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 15px 0;
   
   
   }
   .button{
-      width: 100%;
+     width: 100%;
     text-align: center;
+    height: 50px;;
+  }
+  .button:hover{
+    background-color: #ccc;
+  }
+  #textarea{
+    height: 100px;
   }
   
